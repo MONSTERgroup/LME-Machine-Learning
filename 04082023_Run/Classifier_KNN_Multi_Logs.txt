@@ -1,0 +1,82 @@
+
+Run date and time: 2023-04-10 10:35:01.245272
+
+Feature Names:
+	l_boiling
+	l_electronegativity
+	l_melting
+	l_radius
+	s_boiling
+	s_electronegativity
+	s_melting
+	s_radius
+	t_intermetallic
+	t_phase_1
+	t_phase_2
+	t_s_homologous
+
+Concatenating full feature set and mechanism set...
+
+Scaling x in feature set...
+
+Making test-train split:
+	Test set size: 30.0% of full set
+	Random state: 42
+
+Starting parameter search for Multi-Output KNN Classifier:
+	Start time: 2023-04-10 10:35:01.256243	Cross validation:
+		10 steps
+		1000 iterations
+		10000 total fits
+
+Results from Random Search:
+	The best estimator across ALL searched params: KNeighborsClassifier(n_neighbors=2, weights='distance')
+	The best score across ALL searched params: 0.7233449477351915
+	The best parameters across ALL searched params: {'n_neighbors': 2}
+Calculated in 11.6465 seconds.
+
+Score after training: 0.7005649717514124
+
+Writing reports...
+{"0": {"precision": 0.6610169491525424, "recall": 0.6610169491525424, "f1-score": 0.6610169491525424, "support": 59}, "1": {"precision": 0.8, "recall": 0.7272727272727273, "f1-score": 0.761904761904762, "support": 66}, "2": {"precision": 0.5333333333333333, "recall": 0.8421052631578947, "f1-score": 0.653061224489796, "support": 19}, "3": {"precision": 0.75, "recall": 0.6363636363636364, "f1-score": 0.6885245901639345, "support": 33}, "accuracy": 0.7005649717514124, "macro avg": {"precision": 0.686087570621469, "recall": 0.7166896439867002, "f1-score": 0.6911268814277587, "support": 177}, "weighted avg": {"precision": 0.7157250470809793, "recall": 0.7005649717514124, "f1-score": 0.7029106724657077, "support": 177}}
+
+Run date and time: 2023-04-10 10:36:06.062598
+
+Feature Names:
+	l_boiling
+	l_electronegativity
+	l_melting
+	l_radius
+	s_boiling
+	s_electronegativity
+	s_melting
+	s_radius
+	t_intermetallic
+	t_phase_1
+	t_phase_2
+	t_s_homologous
+
+Concatenating full feature set and mechanism set...
+
+Scaling x in feature set...
+
+Making test-train split:
+	Test set size: 30.0% of full set
+	Random state: 42
+
+Starting parameter search for Multi-Output KNN Classifier:
+	Start time: 2023-04-10 10:36:06.073560	Cross validation:
+		10 steps
+		1000 iterations
+		10000 total fits
+
+Results from Random Search:
+	The best estimator across ALL searched params: KNeighborsClassifier(n_neighbors=2, weights='distance')
+	The best score across ALL searched params: 0.7233449477351915
+	The best parameters across ALL searched params: {'n_neighbors': 2}
+Calculated in 10.8955 seconds.
+
+Score after training: 0.7005649717514124
+
+Writing reports...
+{"0": {"precision": 0.6610169491525424, "recall": 0.6610169491525424, "f1-score": 0.6610169491525424, "support": 59}, "1": {"precision": 0.8, "recall": 0.7272727272727273, "f1-score": 0.761904761904762, "support": 66}, "2": {"precision": 0.5333333333333333, "recall": 0.8421052631578947, "f1-score": 0.653061224489796, "support": 19}, "3": {"precision": 0.75, "recall": 0.6363636363636364, "f1-score": 0.6885245901639345, "support": 33}, "accuracy": 0.7005649717514124, "macro avg": {"precision": 0.686087570621469, "recall": 0.7166896439867002, "f1-score": 0.6911268814277587, "support": 177}, "weighted avg": {"precision": 0.7157250470809793, "recall": 0.7005649717514124, "f1-score": 0.7029106724657077, "support": 177}}

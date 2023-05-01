@@ -42,10 +42,11 @@ class Tome:
         features = vec.get_feature_names_out()
 
         # hardcoded to where I know it is from my csv, find a better way to do this?
-        sorted = data[np.argsort(data[:, 67])]
+        sorted = data[np.argsort(data[:, 10])]
+        
 
         # I know what it does in theory, but that line be dense. Thanks stackoverflow!
-        sectioned = np.split(sorted, np.where(np.diff(sorted[:, 67]))[0] + 1)
+        sectioned = np.split(sorted, np.where(np.diff(sorted[:, 10]))[0] + 1)
 
         if "path" in kwargs:
             path = kwargs.get("path")
@@ -56,16 +57,21 @@ class Tome:
                     delimiter=",",
                     header=",".join(str(e) for e in features),
                 )
+        print(sectioned[0][:,0])
 
         sect = {
-            str(int(sectioned[i][0, 67])): {
-                "feat": np.delete(sectioned[i], 67, 1),
-                "mech": [int(sectioned[i][0, 67])] * sectioned[i].shape[0],
+            str(int(sectioned[i][1, 10])): {
+                "feat": np.delete(sectioned[i], [0,10,14], 1),
+                "mech": [int(x) for x in sectioned[i][:, 10]],
+                "id" : [int(x) for x in sectioned[i][:, 0]],
             }
             for i in range(len(sectioned))
         }
+        #print(sect["0"]["id"])
 
-        return sect
+        features = np.delete(features, [0,10,14])
+        
+        return sect, features
 
     @staticmethod
     def from_excel(path, sheet, **kwargs) -> list:
@@ -98,21 +104,21 @@ class Tome:
     @staticmethod
     def expand_tome_entry_dict(tome_entry) -> dict:
         d = dict()
-
+        d["id"] = tome_entry.id
         d["t_mechanism"] = tome_entry.mechanism
         d["t_temperature"] = tome_entry.test_temperature
         d["t_s_homologous"] = tome_entry.solid_homologous
         d["t_intermetallic"] = tome_entry.energy_of_intermetallic
         d["t_phase_1"] = tome_entry.phase[0]
         d["t_phase_2"] = tome_entry.phase[1]
-        for el in tome_entry.liquid_metal.elements:
-            d[f"l_{el.symbol}_at"] = tome_entry.liquid_metal.get_atomic_fraction(el)
+        #for el in tome_entry.liquid_metal.elements:
+        #    d[f"l_{el.symbol}_at"] = tome_entry.liquid_metal.get_atomic_fraction(el)
         d["l_melting"] = tome_entry.tm_liquid
         d["l_boiling"] = tome_entry.bp_liquid
         d["l_radius"] = tome_entry.radius_liquid
         d["l_electronegativity"] = tome_entry.electronegativity_liquid
-        for el in tome_entry.base_metal.elements:
-            d[f"s_{el.symbol}_at"] = tome_entry.base_metal.get_atomic_fraction(el)
+        #for el in tome_entry.base_metal.elements:
+        #    d[f"s_{el.symbol}_at"] = tome_entry.base_metal.get_atomic_fraction(el)
         d["s_melting"] = tome_entry.tm_solid
         d["s_boiling"] = tome_entry.bp_solid
         d["s_radius"] = tome_entry.radius_solid
@@ -138,22 +144,22 @@ class TomeEntry:
 
     def __str__(self) -> str:
         return (
-            f"ID: {self.id}\n"
+            f"\nID: {self.id}\n"
             + f"Mechanism: {self.mechanism}\n"
             + f"Test Temperature: {self.test_temperature}\n"
             + f"Phase: {self.translate_bravais_code(self.phase[0])} {self.translate_bravais_code(self.phase[1]) if self.phase[1] != 0 else ''}\n"
             + f"E_f Most Likely Intermetallic: {self.energy_of_intermetallic}"
             + f"\n"
             + f" Solid: {self.base_metal.formula}\n"
-            + f"    T\u2098: {self.tm_solid}\n"
+            + f"    T_m: {self.tm_solid}\n"
             + f"    Tb: {self.bp_solid}\n"
             + f"     r: {self.radius_solid}\n"
-            + f"     \u03C7: {self.electronegativity_solid}\n"
+            + f"     E_neg: {self.electronegativity_solid}\n"
             + f"Liquid: {self.liquid_metal.formula}\n"
-            + f"    T\u2098: {self.tm_liquid}\n"
+            + f"    T_m: {self.tm_liquid}\n"
             + f"    Tb: {self.bp_liquid}\n"
             + f"     r: {self.radius_liquid}\n"
-            + f"     \u03C7: {self.electronegativity_liquid}\n"
+            + f"     E_neg: {self.electronegativity_liquid}\n"
         )
 
     @property

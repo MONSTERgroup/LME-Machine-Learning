@@ -1,0 +1,847 @@
+ID: 800
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Al1
+    Tₘ: 933.5 k
+    Tb: 2792.0 K
+     r: 1.25 ang
+     χ: 1.61
+Liquid: Bi1
+    Tₘ: 544.7 k
+    Tb: 1837.0 K
+     r: 1.6 ang
+     χ: 2.02
+
+ID: 801
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: HCP
+E_f Most Likely Intermetallic: -0.3756827783333338
+ Solid: Zr1
+    Tₘ: 2128.0 k
+    Tb: 4682.0 K
+     r: 1.55 ang
+     χ: 1.33
+Liquid: Bi1
+    Tₘ: 544.7 k
+    Tb: 1837.0 K
+     r: 1.6 ang
+     χ: 2.02
+
+ID: 802
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Cu1
+    Tₘ: 1357.0 k
+    Tb: 3200.0 K
+     r: 1.35 ang
+     χ: 1.9
+Liquid: Bi1
+    Tₘ: 544.7 k
+    Tb: 1837.0 K
+     r: 1.6 ang
+     χ: 2.02
+
+ID: 803
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.12417924771428564
+ Solid: Cu0.90945753 Sn0.08960726 P0.00093521
+    Tₘ: 1323.0 k
+    Tb: 3168.399331451192 K
+     r: 1.3586334015797192 ang
+     χ: 1.9056476466791477
+Liquid: Bi1
+    Tₘ: 544.7 k
+    Tb: 1837.0 K
+     r: 1.6 ang
+     χ: 2.02
+
+ID: 804
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.21342794800000037
+ Solid: Al0.01418963 Zn0.23974838 Co0.00375673 Cu0.74230526
+    Tₘ: 1273.0 k
+    Tb: 2709.9188968593903 K
+     r: 1.3485810372531757 ang
+     χ: 1.835872777443467
+Liquid: Bi1
+    Tₘ: 544.7 k
+    Tb: 1837.0 K
+     r: 1.6 ang
+     χ: 2.02
+
+ID: 805
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.10141893990384596
+ Solid: Zn0.30610297 Cu0.69389703
+    Tₘ: 1223.0 k
+    Tb: 2581.672009471975 K
+     r: 1.35 ang
+     χ: 1.8234742585980164
+Liquid: Bi1
+    Tₘ: 544.7 k
+    Tb: 1837.0 K
+     r: 1.6 ang
+     χ: 2.02
+
+ID: 806
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: -0.0683746447586202
+ Solid: Mn0.0039586 Fe0.9944187 C0.0016227
+    Tₘ: 1789.0 k
+    Tb: 3132.7251875526085 K
+     r: 1.3988641108857958 ang
+     χ: 1.8300599353787281
+Liquid: Bi1
+    Tₘ: 544.7 k
+    Tb: 1837.0 K
+     r: 1.6 ang
+     χ: 2.02
+
+ID: 807
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Fe1
+    Tₘ: 1711.0 k
+    Tb: 3134.0 K
+     r: 1.4 ang
+     χ: 1.83
+Liquid: Bi1
+    Tₘ: 544.7 k
+    Tb: 1837.0 K
+     r: 1.6 ang
+     χ: 2.02
+
+ID: 808
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Cr1
+    Tₘ: 2180.0 k
+    Tb: 2944.0 K
+     r: 1.4 ang
+     χ: 1.66
+Liquid: Bi1
+    Tₘ: 544.7 k
+    Tb: 1837.0 K
+     r: 1.6 ang
+     χ: 2.02
+
+ID: 809
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Cu1
+    Tₘ: 1357.0 k
+    Tb: 3200.0 K
+     r: 1.35 ang
+     χ: 1.9
+Liquid: Cu0.00616737 Bi0.99383263
+    Tₘ: 544.7 k
+    Tb: 1845.4061220396907 K
+     r: 1.5984581580998367 ang
+     χ: 2.0192599158879214
+
+ID: 810
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.03194974500000036
+ Solid: Cu0.90945753 Sn0.08960726 P0.00093521
+    Tₘ: 1323.0 k
+    Tb: 3168.399331451192 K
+     r: 1.3586334015797192 ang
+     χ: 1.9056476466791477
+Liquid: Cu0.00616737 Bi0.99383263
+    Tₘ: 544.7 k
+    Tb: 1845.4061220396907 K
+     r: 1.5984581580998367 ang
+     χ: 2.0192599158879214
+
+ID: 811
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.10141893990384596
+ Solid: Zn0.30610297 Cu0.69389703
+    Tₘ: 1223.0 k
+    Tb: 2581.672009471975 K
+     r: 1.35 ang
+     χ: 1.8234742585980164
+Liquid: Cu0.00616737 Bi0.99383263
+    Tₘ: 544.7 k
+    Tb: 1845.4061220396907 K
+     r: 1.5984581580998367 ang
+     χ: 2.0192599158879214
+
+ID: 812
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.10141893990384596
+ Solid: Al0.01418963 Zn0.23974838 Co0.00375673 Cu0.74230526
+    Tₘ: 1273.0 k
+    Tb: 2709.9188968593903 K
+     r: 1.3485810372531757 ang
+     χ: 1.835872777443467
+Liquid: Cu0.00616737 Bi0.99383263
+    Tₘ: 544.7 k
+    Tb: 1845.4061220396907 K
+     r: 1.5984581580998367 ang
+     χ: 2.0192599158879214
+
+ID: 813
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.1748728950000006
+ Solid: Mn0.00991671 Cr0.16894197 Fe0.72579015 Ni0.09535118
+    Tₘ: 1773.0 k
+    Tb: 3098.9259214721806 K
+     r: 1.395232441192871 ang
+     χ: 1.8061312813805435
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 814
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: -0.0683746447586202
+ Solid: Mn0.00443072 Fe0.99535402 C0.00021526
+    Tₘ: 1773.0 k
+    Tb: 3130.7064141833234 K
+     r: 1.3998493202630562 ang
+     χ: 1.8289143835498103
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 815
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.10141893990384596
+ Solid: Zn0.30610297 Cu0.69389703
+    Tₘ: 1223.0 k
+    Tb: 2581.672009471975 K
+     r: 1.35 ang
+     χ: 1.8234742585980164
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 816
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.20580145928571447
+ Solid: Cu0.90945753 Sn0.08960726 P0.00093521
+    Tₘ: 1323.0 k
+    Tb: 3168.399331451192 K
+     r: 1.3586334015797192 ang
+     χ: 1.9056476466791477
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 817
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Al1
+    Tₘ: 933.5 k
+    Tb: 2792.0 K
+     r: 1.25 ang
+     χ: 1.61
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 818
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC FCC
+E_f Most Likely Intermetallic: -0.1748728950000006
+ Solid: Mn0.00581937 Fe0.65592376 Si0.00123958 Ni0.33676285 C0.00025445
+    Tₘ: 1773.0 k
+    Tb: 3147.2012030611218 K
+     r: 1.3826118699758343 ang
+     χ: 1.8555815778648062
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 819
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.006532676000000492
+ Solid: Cu1
+    Tₘ: 1357.0 k
+    Tb: 3200.0 K
+     r: 1.35 ang
+     χ: 1.9
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 820
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Fe1
+    Tₘ: 1711.0 k
+    Tb: 3134.0 K
+     r: 1.4 ang
+     χ: 1.83
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 821
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: HCP
+E_f Most Likely Intermetallic: -0.07982260125000007
+ Solid: Mg1
+    Tₘ: 923.0 k
+    Tb: 1363.0 K
+     r: 1.5 ang
+     χ: 1.31
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 822
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Nb1
+    Tₘ: 2750.0 k
+    Tb: 5017.0 K
+     r: 1.45 ang
+     χ: 1.6
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 823
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.1748728950000006
+ Solid: Mn0.00234195 Fe9.522e-05 Cu0.00010836 Si9.578e-05 Ni0.99720987 C0.00014336 S5.47e-06
+    Tₘ: 1728.0 k
+    Tb: 3184.1461916525013 K
+     r: 1.3500028153731902 ang
+     χ: 1.9092426543933032
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 824
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: HCP
+E_f Most Likely Intermetallic: 0.0
+ Solid: Zn1
+    Tₘ: 693.0 k
+    Tb: 1180.0 K
+     r: 1.35 ang
+     χ: 1.65
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 825
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: HCP
+E_f Most Likely Intermetallic: -0.31446825999999994
+ Solid: Zr1
+    Tₘ: 2128.0 k
+    Tb: 4682.0 K
+     r: 1.55 ang
+     χ: 1.33
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 826
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: -0.5266447708333324
+ Solid: Mg0.00031699 Mn0.00255895 Fe0.96431431 Cu0.00118396 Si0.01308189 Ni0.01093547 C0.00760844     
+    Tₘ: 1523.0 k
+    Tb: 3141.41987541716 K
+     r: 1.3901752536511975 ang
+     χ: 1.8364701838119843
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 827
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC BCT
+E_f Most Likely Intermetallic: -2.1283925696300288
+ Solid: Mg0.00800576 Mn0.07238358 Al0.03554951 B0.0010683 W0.01816637 S0.77523648 O0.08959
+    Tₘ: 1773.0 k
+    Tb: 954.0698681649562 K
+     r: 1.0122056768261332 ang
+     χ: 2.5332684817225157
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 828
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Fe0.99793314 C0.00206686
+    Tₘ: 1773.0 k
+    Tb: 3136.4099638801836 K
+     r: 1.3985531949261334 ang
+     χ: 1.8314881423616913
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 830
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: HCP
+E_f Most Likely Intermetallic: -0.14327728499999903
+ Solid: Ti1
+    Tₘ: 1941.0 k
+    Tb: 3560.0 K
+     r: 1.4 ang
+     χ: 1.54
+Liquid: In1
+    Tₘ: 429.75 k
+    Tb: 2345.0 K
+     r: 1.55 ang
+     χ: 1.78
+
+ID: 831
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: -0.07058835624999915
+ Solid: V1
+    Tₘ: 2183.0 k
+    Tb: 3680.0 K
+     r: 1.35 ang
+     χ: 1.63
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 832
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: W1
+    Tₘ: 3695.0 k
+    Tb: 5828.0 K
+     r: 1.35 ang
+     χ: 2.36
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 833
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Mo1
+    Tₘ: 2896.0 k
+    Tb: 4912.0 K
+     r: 1.45 ang
+     χ: 2.16
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 834
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: HCP
+E_f Most Likely Intermetallic: -0.6003677811111111
+ Solid: Zr1
+    Tₘ: 2128.0 k
+    Tb: 4682.0 K
+     r: 1.55 ang
+     χ: 1.33
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 835
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.10141893990384596
+ Solid: Zn0.30610297 Cu0.69389703
+    Tₘ: 1223.0 k
+    Tb: 2581.672009471975 K
+     r: 1.35 ang
+     χ: 1.8234742585980164
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 836
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: -0.5266447708333324
+ Solid: Mg0.00031699 Mn0.00255895 Fe0.96431431 Cu0.00118396 Si0.01308189 Ni0.01093547 C0.00760844     
+    Tₘ: 1523.0 k
+    Tb: 3141.41987541716 K
+     r: 1.3901752536511975 ang
+     χ: 1.8364701838119843
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 837
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.2679188835000005
+ Solid: Mn0.00991671 Cr0.16894197 Fe0.72579015 Ni0.09535118
+    Tₘ: 1773.0 k
+    Tb: 3098.9259214721806 K
+     r: 1.395232441192871 ang
+     χ: 1.8061312813805435
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 838
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC BCT
+E_f Most Likely Intermetallic: -2.1283925696300288
+ Solid: Mg0.00800576 Mn0.07238358 Al0.03554951 B0.0010683 W0.01816637 S0.77523648 O0.08959
+    Tₘ: 1773.0 k
+    Tb: 954.0698681649562 K
+     r: 1.0122056768261332 ang
+     χ: 2.5332684817225157
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 839
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: -0.0683746447586202
+ Solid: Mn0.00396486 Fe0.99397647 C0.00205867
+    Tₘ: 1773.0 k
+    Tb: 3133.228520315646 K
+     r: 1.3985589313064113 ang
+     χ: 1.8303720811469482
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 840
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: -0.0683746447586202
+ Solid: Mn0.00443072 Fe0.99535402 C0.00021526
+    Tₘ: 1773.0 k
+    Tb: 3130.7064141833234 K
+     r: 1.3998493202630562 ang
+     χ: 1.8289143835498103
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 841
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: -0.009077174999998761
+ Solid: Fe1
+    Tₘ: 1711.0 k
+    Tb: 3134.0 K
+     r: 1.4 ang
+     χ: 1.83
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 842
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: BCC FCC
+E_f Most Likely Intermetallic: -0.2679188835000005
+ Solid: Mn0.00581937 Fe0.65592376 Si0.00123958 Ni0.33676285 C0.00025445
+    Tₘ: 1773.0 k
+    Tb: 3147.2012030611218 K
+     r: 1.3826118699758343 ang
+     χ: 1.8555815778648062
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 843
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.12417924771428564
+ Solid: Cu0.90945753 Sn0.08960726 P0.00093521
+    Tₘ: 1323.0 k
+    Tb: 3168.399331451192 K
+     r: 1.3586334015797192 ang
+     χ: 1.9056476466791477
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 844
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.21342794800000037
+ Solid: Al0.01418963 Zn0.23974838 Co0.00375673 Cu0.74230526
+    Tₘ: 1273.0 k
+    Tb: 2709.9188968593903 K
+     r: 1.3485810372531757 ang
+     χ: 1.835872777443467
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 845
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.03194974500000036
+ Solid: Cu1
+    Tₘ: 1357.0 k
+    Tb: 3200.0 K
+     r: 1.35 ang
+     χ: 1.9
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 846
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: Al1
+    Tₘ: 933.5 k
+    Tb: 2792.0 K
+     r: 1.25 ang
+     χ: 1.61
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 847
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.18552556222222213
+ Solid: Mg0.00987309 Al0.97547105 Cr0.0024962 Fe0.00309343 Cu0.00305068 Si0.00601555
+    Tₘ: 933.5 k
+    Tb: 2782.865324441734 K
+     r: 1.2527094539922086 ang
+     χ: 1.6104726422274858
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 848
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.18552556222222213
+ Solid: Mg0.02474248 Mn0.00099869 Al0.94663708 Zn0.00951233 Cr0.00245756 Fe0.00385769 Cu0.0092414 Si0.00255277
+    Tₘ: 933.5 k
+    Tb: 2747.2876966133654 K
+     r: 1.258775167700879 ang
+     χ: 1.607289707594165
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 849
+Mechanism: 0
+Test Temperature: 673.0 k
+Phase: HCP
+E_f Most Likely Intermetallic: -0.18552556222222213
+ Solid: Mg1
+    Tₘ: 923.0 k
+    Tb: 1363.0 K
+     r: 1.5 ang
+     χ: 1.31
+Liquid: Sn1
+    Tₘ: 504.9 k
+    Tb: 2875.0 K
+     r: 1.45 ang
+     χ: 1.96
+
+ID: 850
+Mechanism: 0
+Test Temperature: 298.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: 0.0
+ Solid: W1
+    Tₘ: 3695.0 k
+    Tb: 5828.0 K
+     r: 1.35 ang
+     χ: 2.36
+Liquid: In0.30956307 Ga0.69043693
+    Tₘ: 288.3 k
+    Tb: 2436.137674279257 K
+     r: 1.3773907684104976 ang
+     χ: 1.8007131077907403
+
+ID: 851
+Mechanism: 0
+Test Temperature: 298.0 k
+Phase: BCC
+E_f Most Likely Intermetallic: -0.15633271799999945
+ Solid: Cr1
+    Tₘ: 2180.0 k
+    Tb: 2944.0 K
+     r: 1.4 ang
+     χ: 1.66
+Liquid: In0.30956307 Ga0.69043693
+    Tₘ: 288.3 k
+    Tb: 2436.137674279257 K
+     r: 1.3773907684104976 ang
+     χ: 1.8007131077907403
+
+ID: 852
+Mechanism: 0
+Test Temperature: 298.0 k
+Phase: HCP
+E_f Most Likely Intermetallic: -0.1500132816666664
+ Solid: Mg1
+    Tₘ: 923.0 k
+    Tb: 1363.0 K
+     r: 1.5 ang
+     χ: 1.31
+Liquid: In0.30956307 Ga0.69043693
+    Tₘ: 288.3 k
+    Tb: 2436.137674279257 K
+     r: 1.3773907684104976 ang
+     χ: 1.8007131077907403
+
+ID: 853
+Mechanism: 0
+Test Temperature: 298.0 k
+Phase: FCC
+E_f Most Likely Intermetallic: -0.2450837629999995
+ Solid: Au1
+    Tₘ: 1337.0 k
+    Tb: 3129.0 K
+     r: 1.35 ang
+     χ: 2.54
+Liquid: In0.30956307 Ga0.69043693
+    Tₘ: 288.3 k
+    Tb: 2436.137674279257 K
+     r: 1.3773907684104976 ang
+     χ: 1.8007131077907403

@@ -1,0 +1,390 @@
+
+Run date and time: 2023-04-13 22:44:55.334224
+
+Feature Names:
+	l_boiling
+	l_electronegativity
+	l_melting
+	l_radius
+	s_boiling
+	s_electronegativity
+	s_melting
+	s_radius
+	t_intermetallic
+	t_phase_1
+	t_phase_2
+	t_s_homologous
+
+Concatenating full feature set and mechanism set...
+
+Scaling x in feature set...
+
+Making test-train split:
+	Test set size: 30.0% of full set
+	Random state: 42
+	Validation set size: 20.0% of training set (13.999999999999998% of full set)
+
+Starting parameter search for Random Forest Classifier:
+	Start time: 2023-04-13 22:44:55.357164	Cross validation:
+		10 steps
+		1000 iterations
+		10000 total fits
+
+Results from Random Search:
+	The best estimator across ALL searched params: RandomForestClassifier(max_depth=67, max_features=10, n_estimators=13)
+	The best score across ALL searched params: 0.7385416666666667
+	The best parameters across ALL searched params: {'criterion': 'gini', 'max_depth': 67, 'max_features': 10, 'min_samples_leaf': 1, 'n_estimators': 13}
+Calculated in 34860.3910 seconds.
+
+Applying sigmoid calibration...
+
+Score after sigmoid calibration: 0.6892655367231638
+
+Feature Importances:
+	l_boiling: 0.0880707631144901
+	l_electronegativity: 0.11357328725190076
+	l_melting: 0.10320759889935771
+	l_radius: 0.06617300599803268
+	s_boiling: 0.06634152704235478
+	s_electronegativity: 0.06559027188512494
+	s_melting: 0.14906839172869088
+	s_radius: 0.05773209515086759
+	t_intermetallic: 0.0729205389606337
+	t_phase_1: 0.01532471499081075
+	t_phase_2: 0.022203899410067795
+	t_s_homologous: 0.17979390556766817
+
+Plotting feature importance...
+
+Calculating permutation importance...
+
+Making predictions on test set...
+
+Writing reports...
+{"0": {"precision": 0.640625, "recall": 0.6949152542372882, "f1-score": 0.6666666666666667, "support": 59}, "1": {"precision": 0.7540983606557377, "recall": 0.696969696969697, "f1-score": 0.7244094488188977, "support": 66}, "2": {"precision": 0.5909090909090909, "recall": 0.6842105263157895, "f1-score": 0.6341463414634148, "support": 19}, "3": {"precision": 0.7333333333333333, "recall": 0.6666666666666666, "f1-score": 0.6984126984126984, "support": 33}, "accuracy": 0.6892655367231638, "macro avg": {"precision": 0.6797414462245405, "recall": 0.6856905360473603, "f1-score": 0.6809087888404195, "support": 177}, "weighted avg": {"precision": 0.6948849690991606, "recall": 0.6892655367231638, "f1-score": 0.6906257428859012, "support": 177}}
+Run date and time: 2023-04-19 14:15:16.382969
+
+Feature Names:
+	l_boiling
+	l_electronegativity
+	l_melting
+	l_radius
+	s_boiling
+	s_electronegativity
+	s_melting
+	s_radius
+	t_intermetallic
+	t_phase_1
+	t_phase_2
+	t_s_homologous
+
+Concatenating full feature set and mechanism set...
+
+Scaling x in feature set...
+
+Making test-train split:
+	Test set size: 30.0% of full set
+	Random state: 42
+	Validation set size: 20.0% of training set (13.999999999999998% of full set)
+
+Starting parameter search for Random Forest Classifier:
+	Start time: 2023-04-19 14:15:16.409405	Cross validation:
+		10 steps
+		1000 iterations
+		10000 total fits
+
+Results from Random Search:
+	The best estimator across ALL searched params: RandomForestClassifier(criterion='entropy', max_depth=35, max_features=7,
+                       min_samples_leaf=3, n_estimators=314)
+	The best score across ALL searched params: 0.7356060606060606
+	The best parameters across ALL searched params: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 7, 'min_samples_leaf': 3, 'n_estimators': 314}
+Calculated in 1569.6714 seconds.
+
+Applying sigmoid calibration...
+
+Score after sigmoid calibration: 0.7231638418079096
+
+Feature Importances:
+	l_boiling: 0.10958232609896038
+	l_electronegativity: 0.1327797061937036
+	l_melting: 0.14541625788563395
+	l_radius: 0.06923022749631948
+	s_boiling: 0.08080045612182224
+	s_electronegativity: 0.06442852151865763
+	s_melting: 0.1298748438647084
+	s_radius: 0.0677601861850768
+	t_intermetallic: 0.05069459119549951
+	t_phase_1: 0.014525629247536951
+	t_phase_2: 0.01281762497513761
+	t_s_homologous: 0.12208962921694365
+
+Plotting feature importance...
+
+Calculating permutation importance...
+
+Run date and time: 2023-04-19 14:44:22.297894
+
+Feature Names:
+	l_boiling
+	l_electronegativity
+	l_melting
+	l_radius
+	s_boiling
+	s_electronegativity
+	s_melting
+	s_radius
+	t_intermetallic
+	t_phase_1
+	t_phase_2
+	t_s_homologous
+
+Concatenating full feature set and mechanism set...
+
+Scaling x in feature set...
+
+Making test-train split:
+	Test set size: 30.0% of full set
+	Random state: 42
+	Validation set size: 20.0% of training set (13.999999999999998% of full set)
+
+Starting parameter search for Random Forest Classifier:
+	Start time: 2023-04-19 14:44:22.309900	Cross validation:
+		10 steps
+		1000 iterations
+		10000 total fits
+
+Results from Random Search:
+	The best estimator across ALL searched params: RandomForestClassifier(criterion='entropy', max_depth=85, max_features=6,
+                       min_samples_leaf=3, n_estimators=118)
+	The best score across ALL searched params: 0.7446022727272728
+	The best parameters across ALL searched params: {'criterion': 'entropy', 'max_depth': 85, 'max_features': 6, 'min_samples_leaf': 3, 'n_estimators': 118}
+Calculated in 2457.2693 seconds.
+
+Applying sigmoid calibration...
+
+Score after sigmoid calibration: 0.7062146892655368
+
+Feature Importances:
+	l_boiling: 0.10893619585534223
+	l_electronegativity: 0.14016623994461644
+	l_melting: 0.15221743061285015
+	l_radius: 0.06485650772226065
+	s_boiling: 0.08106591616134742
+	s_electronegativity: 0.06912802793140863
+	s_melting: 0.1343395834311971
+	s_radius: 0.0670195419994767
+	t_intermetallic: 0.046764956296038176
+	t_phase_1: 0.013721840822946184
+	t_phase_2: 0.012514167191476975
+	t_s_homologous: 0.10926959203103943
+
+Plotting feature importance...
+
+Calculating permutation importance...
+
+Plotting feature importance, take 2...
+
+Run date and time: 2023-04-19 15:31:21.550706
+
+Feature Names:
+	l_boiling
+	l_electronegativity
+	l_melting
+	l_radius
+	s_boiling
+	s_electronegativity
+	s_melting
+	s_radius
+	t_intermetallic
+	t_phase_1
+	t_phase_2
+	t_s_homologous
+
+Concatenating full feature set and mechanism set...
+
+Scaling x in feature set...
+
+Making test-train split:
+	Test set size: 30.0% of full set
+	Random state: 42
+	Validation set size: 20.0% of training set (13.999999999999998% of full set)
+
+Starting parameter search for Random Forest Classifier:
+	Start time: 2023-04-19 15:31:21.566662	Cross validation:
+		10 steps
+		1000 iterations
+		10000 total fits
+
+Results from Random Search:
+	The best estimator across ALL searched params: RandomForestClassifier(criterion='entropy', max_depth=18, max_features=1,
+                       n_estimators=133)
+	The best score across ALL searched params: 0.7387310606060606
+	The best parameters across ALL searched params: {'criterion': 'entropy', 'max_depth': 18, 'max_features': 1, 'min_samples_leaf': 1, 'n_estimators': 133}
+Calculated in 1561.6271 seconds.
+
+Applying sigmoid calibration...
+
+Score after sigmoid calibration: 0.7175141242937854
+
+Feature Importances:
+	l_boiling: 0.09587726981021873
+	l_electronegativity: 0.09058009241754357
+	l_melting: 0.09664271654283745
+	l_radius: 0.08099681504303168
+	s_boiling: 0.08985334520081042
+	s_electronegativity: 0.08468791179330966
+	s_melting: 0.07865128722596365
+	s_radius: 0.093304401880562
+	t_intermetallic: 0.07465040930602994
+	t_phase_1: 0.03962979948967059
+	t_phase_2: 0.018819867932654357
+	t_s_homologous: 0.1563060833573679
+
+Plotting feature importance...
+
+Calculating permutation importance...
+
+Plotting feature importance, take 2...
+
+Calculating permutation importance...
+
+Making predictions on test set...
+
+Writing reports...
+{"0": {"precision": 0.65, "recall": 0.6610169491525424, "f1-score": 0.6554621848739496, "support": 59}, "1": {"precision": 0.7692307692307693, "recall": 0.7575757575757576, "f1-score": 0.7633587786259541, "support": 66}, "2": {"precision": 0.6666666666666666, "recall": 0.8421052631578947, "f1-score": 0.744186046511628, "support": 19}, "3": {"precision": 0.7857142857142857, "recall": 0.6666666666666666, "f1-score": 0.721311475409836, "support": 33}, "accuracy": 0.7175141242937854, "macro avg": {"precision": 0.7179029304029304, "recall": 0.7318411591382153, "f1-score": 0.7210796213553419, "support": 177}, "weighted avg": {"precision": 0.7215506715506715, "recall": 0.7175141242937854, "f1-score": 0.7174958297690481, "support": 177}}
+Run date and time: 2023-04-19 16:21:06.189467
+
+Feature Names:
+	l_boiling
+	l_electronegativity
+	l_melting
+	l_radius
+	s_boiling
+	s_electronegativity
+	s_melting
+	s_radius
+	t_intermetallic
+	t_phase_1
+	t_phase_2
+	t_s_homologous
+
+Concatenating full feature set and mechanism set...
+
+Scaling x in feature set...
+
+Making test-train split:
+	Test set size: 30.0% of full set
+	Random state: 42
+	Validation set size: 20.0% of training set (13.999999999999998% of full set)
+
+Starting parameter search for Random Forest Classifier:
+	Start time: 2023-04-19 16:21:06.204429	Cross validation:
+		10 steps
+		1000 iterations
+		10000 total fits
+
+Results from Random Search:
+	The best estimator across ALL searched params: RandomForestClassifier(criterion='entropy', max_depth=21, max_features=2,
+                       min_samples_leaf=2, n_estimators=44)
+	The best score across ALL searched params: 0.7416666666666667
+	The best parameters across ALL searched params: {'criterion': 'entropy', 'max_depth': 21, 'max_features': 2, 'min_samples_leaf': 2, 'n_estimators': 44}
+Calculated in 1500.3314 seconds.
+
+Applying sigmoid calibration...
+
+Score after sigmoid calibration: 0.7401129943502824
+
+Feature Importances:
+	l_boiling: 0.1032360431606297
+	l_electronegativity: 0.11027608962445519
+	l_melting: 0.1217953050969105
+	l_radius: 0.0832315789655743
+	s_boiling: 0.10375138235102727
+	s_electronegativity: 0.0666543164891747
+	s_melting: 0.09111611711563904
+	s_radius: 0.08439321304658803
+	t_intermetallic: 0.06929244706827059
+	t_phase_1: 0.0365418145039759
+	t_phase_2: 0.013115188269843233
+	t_s_homologous: 0.11659650430791153
+
+Plotting feature importance...
+
+Calculating permutation importance...
+
+Plotting feature importance, take 2...
+
+Calculating permutation importance...
+
+Making predictions on test set...
+
+Writing reports...
+{"0": {"precision": 0.671875, "recall": 0.7288135593220338, "f1-score": 0.6991869918699187, "support": 59}, "1": {"precision": 0.8421052631578947, "recall": 0.7272727272727273, "f1-score": 0.7804878048780488, "support": 66}, "2": {"precision": 0.6538461538461539, "recall": 0.8947368421052632, "f1-score": 0.7555555555555555, "support": 19}, "3": {"precision": 0.7666666666666667, "recall": 0.696969696969697, "f1-score": 0.7301587301587302, "support": 33}, "accuracy": 0.7401129943502824, "macro avg": {"precision": 0.7336232709176788, "recall": 0.7619482064174303, "f1-score": 0.7413472706155633, "support": 177}, "weighted avg": {"precision": 0.7510884140762597, "recall": 0.7401129943502824, "f1-score": 0.7413278039156501, "support": 177}}
+Run date and time: 2023-04-20 16:09:04.701891
+
+Feature Names:
+	l_boiling
+	l_electronegativity
+	l_melting
+	l_radius
+	s_boiling
+	s_electronegativity
+	s_melting
+	s_radius
+	t_intermetallic
+	t_phase_1
+	t_phase_2
+	t_s_homologous
+
+Concatenating full feature set and mechanism set...
+
+Scaling x in feature set...
+
+Making test-train split:
+	Test set size: 30.0% of full set
+	Random state: 42
+	Validation set size: 20.0% of training set (13.999999999999998% of full set)
+
+Starting parameter search for Random Forest Classifier:
+	Start time: 2023-04-20 16:09:04.714866	Cross validation:
+		10 steps
+		1000 iterations
+		10000 total fits
+
+Results from Random Search:
+	The best estimator across ALL searched params: RandomForestClassifier(criterion='entropy', max_depth=69, max_features=6,
+                       min_samples_leaf=3, n_estimators=28)
+	The best score across ALL searched params: 0.7387310606060606
+	The best parameters across ALL searched params: {'criterion': 'entropy', 'max_depth': 69, 'max_features': 6, 'min_samples_leaf': 3, 'n_estimators': 28}
+Calculated in 1411.7944 seconds.
+
+Applying sigmoid calibration...
+
+Score after sigmoid calibration: 0.7062146892655368
+
+Feature Importances:
+	l_boiling: 0.11865046452578
+	l_electronegativity: 0.1267799367686374
+	l_melting: 0.1475103045846406
+	l_radius: 0.06984845266276468
+	s_boiling: 0.0892427704601483
+	s_electronegativity: 0.053083840519772246
+	s_melting: 0.11416516791350928
+	s_radius: 0.07286391073407628
+	t_intermetallic: 0.04918269011271752
+	t_phase_1: 0.024948251397321618
+	t_phase_2: 0.013942551924135535
+	t_s_homologous: 0.1197816583964967
+
+Plotting feature importance...
+
+Calculating permutation importance...
+
+Plotting feature importance, take 2...
+
+Calculating permutation importance...
+
+Making predictions on test set...
+
+Writing reports...
+{"0": {"precision": 0.6721311475409836, "recall": 0.6949152542372882, "f1-score": 0.6833333333333333, "support": 59}, "1": {"precision": 0.7796610169491526, "recall": 0.696969696969697, "f1-score": 0.7360000000000001, "support": 66}, "2": {"precision": 0.625, "recall": 0.7894736842105263, "f1-score": 0.6976744186046512, "support": 19}, "3": {"precision": 0.696969696969697, "recall": 0.696969696969697, "f1-score": 0.696969696969697, "support": 33}, "accuracy": 0.7062146892655368, "macro avg": {"precision": 0.6934404653649584, "recall": 0.7195820830968023, "f1-score": 0.7034943622269203, "support": 177}, "weighted avg": {"precision": 0.71179867131956, "recall": 0.7062146892655368, "f1-score": 0.7070535628257347, "support": 177}}

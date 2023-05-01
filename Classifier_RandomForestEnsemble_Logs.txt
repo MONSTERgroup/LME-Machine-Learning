@@ -1,0 +1,68 @@
+
+Run date and time: 2023-04-20 16:36:41.373749
+
+Feature Names:
+	l_boiling
+	l_electronegativity
+	l_melting
+	l_radius
+	s_boiling
+	s_electronegativity
+	s_melting
+	s_radius
+	t_intermetallic
+	t_phase_1
+	t_phase_2
+	t_s_homologous
+
+Concatenating full feature set and mechanism set...
+
+Scaling x in feature set...
+
+Making test-train split:
+	Test set size: 30.0% of full set
+	Random state: 42
+	Validation set size: 20.0% of training set (13.999999999999998% of full set)
+
+Starting parameter search for Random Forest Classifier:
+	Start time: 2023-04-20 16:36:41.384707	Cross validation:
+		10 steps
+		1000 iterations
+		10000 total fits
+
+Results from Random Search:
+	The best estimator across ALL searched params: RandomForestClassifier(max_depth=41, max_features=1, n_estimators=154)
+	The best score across ALL searched params: 0.7387310606060606
+	The best parameters across ALL searched params: {'criterion': 'gini', 'max_depth': 41, 'max_features': 1, 'min_samples_leaf': 1, 'n_estimators': 154}
+Calculated in 1207.2075 seconds.
+
+Applying sigmoid calibration...
+
+Score after sigmoid calibration: 0.7062146892655368
+
+Feature Importances:
+	l_boiling: 0.09286807025546767
+	l_electronegativity: 0.09017042435001013
+	l_melting: 0.09766444950015103
+	l_radius: 0.08169329841658955
+	s_boiling: 0.09033817441715385
+	s_electronegativity: 0.08414914529203148
+	s_melting: 0.08034370671812034
+	s_radius: 0.09534854209063862
+	t_intermetallic: 0.07056283155389381
+	t_phase_1: 0.03576125551563509
+	t_phase_2: 0.017409897887561577
+	t_s_homologous: 0.16369020400274684
+
+Plotting feature importance...
+
+Calculating permutation importance...
+
+Plotting feature importance, take 2...
+
+Calculating permutation importance...
+
+Making predictions on test set...
+
+Writing reports...
+{"0": {"precision": 0.6612903225806451, "recall": 0.6949152542372882, "f1-score": 0.6776859504132231, "support": 59}, "1": {"precision": 0.7931034482758621, "recall": 0.696969696969697, "f1-score": 0.7419354838709677, "support": 66}, "2": {"precision": 0.6153846153846154, "recall": 0.8421052631578947, "f1-score": 0.7111111111111111, "support": 19}, "3": {"precision": 0.7096774193548387, "recall": 0.6666666666666666, "f1-score": 0.6875, "support": 33}, "accuracy": 0.7062146892655368, "macro avg": {"precision": 0.6948639513989903, "recall": 0.7251642202578866, "f1-score": 0.7045581363488255, "support": 177}, "weighted avg": {"precision": 0.714534571466002, "recall": 0.7062146892655368, "f1-score": 0.7070611532258483, "support": 177}}
